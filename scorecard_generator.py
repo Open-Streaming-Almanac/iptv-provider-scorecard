@@ -1,6 +1,3 @@
-Verified working — the script parses the playlist, runs all eight static tests (plus optional `--probe` live reachability), writes the markdown report, and emits the JSON summary. `scorecard_generator.py` is in the working directory.
-
-```python
 #!/usr/bin/env python3
 """Automated provider scorecard generator.
 
@@ -253,4 +250,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-```
